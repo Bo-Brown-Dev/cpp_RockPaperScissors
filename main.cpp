@@ -60,9 +60,7 @@ int main() {
     }
   }
 
-  if (tie) {
-    std::cout << "so...\n EVERYONE WINS";
-  } else if (winner) {std::cout << "so...\n YOU WIN\n";
-  } else if (!winner) { std::cout << "So...\n YOU LOSE\n";
-  }
+  if (tie) {std::cout << "so...\n EVERYONE WINS";}
+  else if (winner) { std::cout << "so...\n YOU WIN\n";}
+  else if (!winner) { std::cout << "So...\n YOU LOSE\n";}
 }
